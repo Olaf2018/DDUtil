@@ -1,4 +1,3 @@
-I want to make a tool library that can meet the tool needs of most iOS developers. This library will be based on Swift.
 ## 环境要求
 
 - iOS 10.0 以上
