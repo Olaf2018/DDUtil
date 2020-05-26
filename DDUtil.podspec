@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'DDUtil'
-    s.version          = '0.1.2'
+    s.version          = '0.1.6'
     s.summary          = 'develop tool in swift.'
     s.description      = 'develop tool in swift. so small so simple'
     s.homepage         = 'https://github.com/DDwin/DDUtil'
