@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DDUtil
 
 class ViewController: UIViewController {
 
@@ -14,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // ToastView Sample
-//        ToastView.show("bring your ideas to life", inView: self.view)
+        DDToastView.show("bring your ideas to life", inView: self.view)
     }
 }
 

@@ -1,16 +1,16 @@
 PODS:
-  - DDUtil (0.0.7)
+  - DDUtil (0.2.1)
 
 DEPENDENCIES:
-  - DDUtil
+  - DDUtil (= 0.2.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - DDUtil
 
 SPEC CHECKSUMS:
-  DDUtil: 70ba575966688ae74d3195a9d462cc67148c4a56
+  DDUtil: cbf9aa684b8c7155aed99eace826b734e7fa4f15
 
-PODFILE CHECKSUM: 64d9e5282d3b6a5a4be6a12f270529f386e9fedd
+PODFILE CHECKSUM: ae88136dbc5e80996e91345ec1e1224eb2f182a9
 
 COCOAPODS: 1.9.2

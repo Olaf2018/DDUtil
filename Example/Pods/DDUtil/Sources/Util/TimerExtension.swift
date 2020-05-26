@@ -2,7 +2,7 @@
 //  TimerExtension.swift
 //  DDUtil
 //
-//  Created by DDBB on 2020/3/11.
+//  Created by DDB on 2020/3/11.
 //  Copyright © 2020 DDWin. All rights reserved.
 //
 

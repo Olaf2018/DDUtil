@@ -2,7 +2,7 @@
 //  ImageExtension.swift
 //  DDUtil
 //
-//  Created by DDBB on 2020/4/26.
+//  Created by DDB on 2020/4/26.
 //  Copyright © 2020 DDWin. All rights reserved.
 //
 

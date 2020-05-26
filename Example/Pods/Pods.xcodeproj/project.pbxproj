@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04EDD1E24871C9D8E121A94D61A463A7 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527C5442297CB048F2724AF3FFB53B60 /* ImageExtension.swift */; };
 		3146DAD2DC93D350509400BB57E92654 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
-		3B7F8FB1D88C1A7953CA83977BCED79E /* DDUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B981EDBAF5EEEF8B7F74A8133B191F9F /* DDUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50340E10ACF9863DEE0A4C67DAEAE726 /* DDUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9026E0DB97D37D9EB2C699D26BFE07B /* DDUtil-dummy.m */; };
-		765FC5E7F8F8E7371019651ED746672B /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83BF36D3B74DB395F664F081A622F0B /* UIColorExtension.swift */; };
+		3F712A4FCDE15A574F8324534F6E1526 /* DDToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45696B8F14542A328D695049215FE7 /* DDToastView.swift */; };
+		4118C9CD73CF88536794B7690990C748 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		45E49F65C67A249C203AA1171E5AD566 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4627B5EC8FCB60A8F5A743E82DC19F /* UIColorExtension.swift */; };
+		4FC90030F45EF3D6918EA3D1C511BDB8 /* DDUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6179290794ABE517318FC78052BD4E /* DDUtil-dummy.m */; };
+		6684363C6DD91779A0817AEB86B9A896 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60A8EC427BB895C83A497D9041DF81 /* DateUtil.swift */; };
+		70EC1711D478704E41D622CD006E6E4B /* DateFormatterUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CB741732BF81663A6DAD8D11AEC22 /* DateFormatterUtil.swift */; };
+		7584964FA8DE3D95653DF13F777978C1 /* DDUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE289EC0F3CF55AB0A4EFE17B55AE6BA /* DDUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		824D30752E9E504C836D7BE4AE6F3F8F /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B25D8BB5602FEE2FC80CD63E3C45F8D1 /* TimerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D03890A58F469511A080EC2F2F8E3 /* TimerExtension.swift */; };
-		B354B9F4C4C09DA342D7A202060EE9E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BC7B7EB8785F144324E6D33A0D491BE0 /* DDWeakTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7756007561F59A8990FEBB9683AC89 /* DDWeakTimer.swift */; };
+		B146329222E0BBFC0B276AC5AB421EDE /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199E4A7348706181487AAC9EA81EAED7 /* ImageExtension.swift */; };
+		B5636D9478C4BBF77E16775233B718CF /* DDWeakTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63760599E165DD791E6DE90142BC3626 /* DDWeakTimer.swift */; };
+		B81D3996BADAEC93937E571B90BA0E38 /* TimerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A5C8A0DA40F19EFB03FAB330A94DF8 /* TimerExtension.swift */; };
 		F99580680ADCCCD7788A9A68DC6EFBB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,41 +33,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A4D03890A58F469511A080EC2F2F8E3 /* TimerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimerExtension.swift; path = Sources/Util/TimerExtension.swift; sourceTree = "<group>"; };
+		0B72FF2C2412BF0CB6BB2D108FCC805C /* DDUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDUtil-prefix.pch"; sourceTree = "<group>"; };
+		199E4A7348706181487AAC9EA81EAED7 /* ImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageExtension.swift; path = Sources/Util/ImageExtension.swift; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		50C453D6A553E540793690131C60596B /* DDUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDUtil-prefix.pch"; sourceTree = "<group>"; };
-		527C5442297CB048F2724AF3FFB53B60 /* ImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageExtension.swift; path = Sources/Util/ImageExtension.swift; sourceTree = "<group>"; };
+		63760599E165DD791E6DE90142BC3626 /* DDWeakTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDWeakTimer.swift; path = Sources/Util/DDWeakTimer.swift; sourceTree = "<group>"; };
 		63F91B6C26C64DDDE91869920C97EC2C /* DDUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DDUtil.framework; path = DDUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CB09DB4A9B12A8EAA49A1CB7E7754FF /* DDUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDUtil.release.xcconfig; sourceTree = "<group>"; };
-		715249360BA8683D85958A8E81BC9989 /* DDUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDUtil-Info.plist"; sourceTree = "<group>"; };
+		6F6179290794ABE517318FC78052BD4E /* DDUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDUtil-dummy.m"; sourceTree = "<group>"; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		806A1F8ED633D5F7946EC4D28001A5B5 /* DDUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDUtil.debug.xcconfig; sourceTree = "<group>"; };
-		891648D0E33FC3F3FA5BD3EC55AA8A79 /* DDUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDUtil.modulemap; sourceTree = "<group>"; };
-		9A7756007561F59A8990FEBB9683AC89 /* DDWeakTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDWeakTimer.swift; path = Sources/Util/DDWeakTimer.swift; sourceTree = "<group>"; };
+		8B4CB741732BF81663A6DAD8D11AEC22 /* DateFormatterUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterUtil.swift; path = Sources/Util/DateFormatterUtil.swift; sourceTree = "<group>"; };
+		8CD666961E1497C73356DF62E967D32D /* DDUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDUtil.release.xcconfig; sourceTree = "<group>"; };
+		954116AF43B5BCF566DEDC418A1D2D25 /* DDUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDUtil-Info.plist"; sourceTree = "<group>"; };
+		9A60A8EC427BB895C83A497D9041DF81 /* DateUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateUtil.swift; path = Sources/Util/DateUtil.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC45696B8F14542A328D695049215FE7 /* DDToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDToastView.swift; path = Sources/Util/DDToastView.swift; sourceTree = "<group>"; };
+		AE289EC0F3CF55AB0A4EFE17B55AE6BA /* DDUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDUtil-umbrella.h"; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B981EDBAF5EEEF8B7F74A8133B191F9F /* DDUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDUtil-umbrella.h"; sourceTree = "<group>"; };
+		C04E556695284A7C2DC532EBBC068A78 /* DDUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDUtil.modulemap; sourceTree = "<group>"; };
+		C3A5C8A0DA40F19EFB03FAB330A94DF8 /* TimerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimerExtension.swift; path = Sources/Util/TimerExtension.swift; sourceTree = "<group>"; };
+		CFE4F4869541FAE0043BB238CC9C26EC /* DDUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDUtil.debug.xcconfig; sourceTree = "<group>"; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		E83BF36D3B74DB395F664F081A622F0B /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Sources/Util/UIColorExtension.swift; sourceTree = "<group>"; };
-		E9026E0DB97D37D9EB2C699D26BFE07B /* DDUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDUtil-dummy.m"; sourceTree = "<group>"; };
+		DD4627B5EC8FCB60A8F5A743E82DC19F /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Sources/Util/UIColorExtension.swift; sourceTree = "<group>"; };
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E6A271B6E4AA7059CA563BC0F554A6C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B354B9F4C4C09DA342D7A202060EE9E4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3F269D3ECB6956AFAD051DDDD9002306 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,22 +71,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7ECBD61954E57E695570D405FED5824B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4118C9CD73CF88536794B7690990C748 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A91523A384AF1ED5093EB83CEC31B71 /* DDUtil */ = {
-			isa = PBXGroup;
-			children = (
-				9A7756007561F59A8990FEBB9683AC89 /* DDWeakTimer.swift */,
-				527C5442297CB048F2724AF3FFB53B60 /* ImageExtension.swift */,
-				1A4D03890A58F469511A080EC2F2F8E3 /* TimerExtension.swift */,
-				E83BF36D3B74DB395F664F081A622F0B /* UIColorExtension.swift */,
-				9F44B558837B90F5590BEB2EFF2D53DE /* Support Files */,
-			);
-			name = DDUtil;
-			path = DDUtil;
-			sourceTree = "<group>";
-		};
 		5A5F280BC4D80E5A80179148DC581661 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,10 +91,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5CE3A1BD56240260D6B5E7C101F979C5 /* Pods */ = {
+		78C57BC1F24CDE12150C9B65841A9CE5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2A91523A384AF1ED5093EB83CEC31B71 /* DDUtil */,
+				F5FEEA43BF09C04E34C452EBBA505EC8 /* DDUtil */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -123,16 +116,16 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		9F44B558837B90F5590BEB2EFF2D53DE /* Support Files */ = {
+		AFB5A71253E259D9E0978865E8778F67 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				891648D0E33FC3F3FA5BD3EC55AA8A79 /* DDUtil.modulemap */,
-				E9026E0DB97D37D9EB2C699D26BFE07B /* DDUtil-dummy.m */,
-				715249360BA8683D85958A8E81BC9989 /* DDUtil-Info.plist */,
-				50C453D6A553E540793690131C60596B /* DDUtil-prefix.pch */,
-				B981EDBAF5EEEF8B7F74A8133B191F9F /* DDUtil-umbrella.h */,
-				806A1F8ED633D5F7946EC4D28001A5B5 /* DDUtil.debug.xcconfig */,
-				6CB09DB4A9B12A8EAA49A1CB7E7754FF /* DDUtil.release.xcconfig */,
+				C04E556695284A7C2DC532EBBC068A78 /* DDUtil.modulemap */,
+				6F6179290794ABE517318FC78052BD4E /* DDUtil-dummy.m */,
+				954116AF43B5BCF566DEDC418A1D2D25 /* DDUtil-Info.plist */,
+				0B72FF2C2412BF0CB6BB2D108FCC805C /* DDUtil-prefix.pch */,
+				AE289EC0F3CF55AB0A4EFE17B55AE6BA /* DDUtil-umbrella.h */,
+				CFE4F4869541FAE0043BB238CC9C26EC /* DDUtil.debug.xcconfig */,
+				8CD666961E1497C73356DF62E967D32D /* DDUtil.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/DDUtil";
@@ -159,7 +152,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				5CE3A1BD56240260D6B5E7C101F979C5 /* Pods */,
+				78C57BC1F24CDE12150C9B65841A9CE5 /* Pods */,
 				5A5F280BC4D80E5A80179148DC581661 /* Products */,
 				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
 			);
@@ -173,6 +166,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F5FEEA43BF09C04E34C452EBBA505EC8 /* DDUtil */ = {
+			isa = PBXGroup;
+			children = (
+				8B4CB741732BF81663A6DAD8D11AEC22 /* DateFormatterUtil.swift */,
+				9A60A8EC427BB895C83A497D9041DF81 /* DateUtil.swift */,
+				AC45696B8F14542A328D695049215FE7 /* DDToastView.swift */,
+				63760599E165DD791E6DE90142BC3626 /* DDWeakTimer.swift */,
+				199E4A7348706181487AAC9EA81EAED7 /* ImageExtension.swift */,
+				C3A5C8A0DA40F19EFB03FAB330A94DF8 /* TimerExtension.swift */,
+				DD4627B5EC8FCB60A8F5A743E82DC19F /* UIColorExtension.swift */,
+				AFB5A71253E259D9E0978865E8778F67 /* Support Files */,
+			);
+			name = DDUtil;
+			path = DDUtil;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -184,11 +193,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A1C4D1417F7D2ED535F5146DCEF55F5 /* Headers */ = {
+		FF33352ABC5AE6A53429E1E3886B0DA2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B7F8FB1D88C1A7953CA83977BCED79E /* DDUtil-umbrella.h in Headers */,
+				7584964FA8DE3D95653DF13F777978C1 /* DDUtil-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,12 +225,12 @@
 		};
 		9E9B6770FD39B57BB2AC40AEC78EC81A /* DDUtil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAD1B064FEE7D39976C9A48F3DF57952 /* Build configuration list for PBXNativeTarget "DDUtil" */;
+			buildConfigurationList = 73CE280541F45706EDEC23436339B841 /* Build configuration list for PBXNativeTarget "DDUtil" */;
 			buildPhases = (
-				3A1C4D1417F7D2ED535F5146DCEF55F5 /* Headers */,
-				F0C1D6270C7F85C77D2CA683C47CF867 /* Sources */,
-				0E6A271B6E4AA7059CA563BC0F554A6C /* Frameworks */,
-				BAFA659C658FB923E8389E294AD71456 /* Resources */,
+				FF33352ABC5AE6A53429E1E3886B0DA2 /* Headers */,
+				C9122E8B9CED6CAE62F35DCD76C95BCD /* Sources */,
+				7ECBD61954E57E695570D405FED5824B /* Frameworks */,
+				19F240A3F019D040DDE8432257902CAA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -261,14 +270,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		53875BC9B3043B327635AF70FAF38AEC /* Resources */ = {
+		19F240A3F019D040DDE8432257902CAA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAFA659C658FB923E8389E294AD71456 /* Resources */ = {
+		53875BC9B3043B327635AF70FAF38AEC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,15 +295,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0C1D6270C7F85C77D2CA683C47CF867 /* Sources */ = {
+		C9122E8B9CED6CAE62F35DCD76C95BCD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50340E10ACF9863DEE0A4C67DAEAE726 /* DDUtil-dummy.m in Sources */,
-				BC7B7EB8785F144324E6D33A0D491BE0 /* DDWeakTimer.swift in Sources */,
-				04EDD1E24871C9D8E121A94D61A463A7 /* ImageExtension.swift in Sources */,
-				B25D8BB5602FEE2FC80CD63E3C45F8D1 /* TimerExtension.swift in Sources */,
-				765FC5E7F8F8E7371019651ED746672B /* UIColorExtension.swift in Sources */,
+				70EC1711D478704E41D622CD006E6E4B /* DateFormatterUtil.swift in Sources */,
+				6684363C6DD91779A0817AEB86B9A896 /* DateUtil.swift in Sources */,
+				3F712A4FCDE15A574F8324534F6E1526 /* DDToastView.swift in Sources */,
+				4FC90030F45EF3D6918EA3D1C511BDB8 /* DDUtil-dummy.m in Sources */,
+				B5636D9478C4BBF77E16775233B718CF /* DDWeakTimer.swift in Sources */,
+				B146329222E0BBFC0B276AC5AB421EDE /* ImageExtension.swift in Sources */,
+				B81D3996BADAEC93937E571B90BA0E38 /* TimerExtension.swift in Sources */,
+				45E49F65C67A249C203AA1171E5AD566 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,9 +361,9 @@
 			};
 			name = Release;
 		};
-		391F186AD8AAC77B8E7B785CBEB20081 /* Release */ = {
+		4BAB20055A04A1CD148297B4A3B92297 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CB09DB4A9B12A8EAA49A1CB7E7754FF /* DDUtil.release.xcconfig */;
+			baseConfigurationReference = 8CD666961E1497C73356DF62E967D32D /* DDUtil.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -385,42 +397,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		5110CC1B733C702D433E0DDFC976F733 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 806A1F8ED633D5F7946EC4D28001A5B5 /* DDUtil.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DDUtil/DDUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DDUtil/DDUtil-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DDUtil/DDUtil.modulemap";
-				PRODUCT_MODULE_NAME = DDUtil;
-				PRODUCT_NAME = DDUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -584,6 +560,42 @@
 			};
 			name = Debug;
 		};
+		FDADA393FCC627E2B604DEDCA67AE55D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE4F4869541FAE0043BB238CC9C26EC /* DDUtil.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DDUtil/DDUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDUtil/DDUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DDUtil/DDUtil.modulemap";
+				PRODUCT_MODULE_NAME = DDUtil;
+				PRODUCT_NAME = DDUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -605,11 +617,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAD1B064FEE7D39976C9A48F3DF57952 /* Build configuration list for PBXNativeTarget "DDUtil" */ = {
+		73CE280541F45706EDEC23436339B841 /* Build configuration list for PBXNativeTarget "DDUtil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5110CC1B733C702D433E0DDFC976F733 /* Debug */,
-				391F186AD8AAC77B8E7B785CBEB20081 /* Release */,
+				FDADA393FCC627E2B604DEDCA67AE55D /* Debug */,
+				4BAB20055A04A1CD148297B4A3B92297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
