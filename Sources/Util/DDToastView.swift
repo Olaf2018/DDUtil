@@ -126,7 +126,7 @@ public class DDToastView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func updateConstraints() {
+    public override func updateConstraints() {
         super.updateConstraints()
         guard let message = messageLabel.text else {
                    return
