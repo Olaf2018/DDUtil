@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // ToastView Sample
-        DDToastView.show("bring your ideas to life", inView: self.view)
+        // ToastView Sampllse
+//        DDToastView.show("bring your ideas to life", inView: self.view)
     }
 }
 

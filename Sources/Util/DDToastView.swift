@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DDToastView: UIView {
+public class DDToastView: UIView {
     let screenWidth = UIScreen.main.bounds.size.width
     let screenHeight = UIScreen.main.bounds.size.height
     /// 中心点位置枚举
