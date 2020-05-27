@@ -16,10 +16,7 @@ class ViewController: UIViewController {
         
         // ToastView Sampllse
         DDToastView.show("bring your ideas to life",inView: self.view)
-        DDToastView.show("bring your ideas to life",inView: self.view)
-        DDToastView.show("bring your ideas to life",inView: self.view)
-        DDToastView.show("bring your ideas to life",inView: self.view)
-//        "adfafafasdfadsfa".toast(inView: self.view, position: .center)
+//        "bring your ideas to life".toast(inView: self.view, position: .center)
     }
 }
 

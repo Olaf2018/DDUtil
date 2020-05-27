@@ -5,6 +5,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'Example' do
   use_frameworks!
 
-  pod 'DDUtil', '0.2.5'
+  pod 'DDUtil', '0.2.7'
 
 end
