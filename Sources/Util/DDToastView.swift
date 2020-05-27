@@ -240,10 +240,3 @@ extension String {
         return DDToastView.show(self, inView: view, position: position)
     }
 }
-
-extension NSString {
-    /// 给 OC 用
-    @objc public func toast() {
-        DDToastView.show(String(self))
-    }
-}
