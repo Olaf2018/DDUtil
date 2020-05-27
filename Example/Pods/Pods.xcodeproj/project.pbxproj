@@ -7,18 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0105BE1E60F9531C172AF7DB9CB08A /* DDToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34FA0F08236CE2D3F1A8667525BFC93E /* DDToastView.swift */; };
 		3146DAD2DC93D350509400BB57E92654 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
-		3F712A4FCDE15A574F8324534F6E1526 /* DDToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC45696B8F14542A328D695049215FE7 /* DDToastView.swift */; };
-		4118C9CD73CF88536794B7690990C748 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		45E49F65C67A249C203AA1171E5AD566 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4627B5EC8FCB60A8F5A743E82DC19F /* UIColorExtension.swift */; };
-		4FC90030F45EF3D6918EA3D1C511BDB8 /* DDUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6179290794ABE517318FC78052BD4E /* DDUtil-dummy.m */; };
-		6684363C6DD91779A0817AEB86B9A896 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A60A8EC427BB895C83A497D9041DF81 /* DateUtil.swift */; };
-		70EC1711D478704E41D622CD006E6E4B /* DateFormatterUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CB741732BF81663A6DAD8D11AEC22 /* DateFormatterUtil.swift */; };
-		7584964FA8DE3D95653DF13F777978C1 /* DDUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE289EC0F3CF55AB0A4EFE17B55AE6BA /* DDUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6521F65F20A4F4C8C9B2AC94B6059340 /* DDUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C67B7FF79CEF9154A217E2AE52947AE /* DDUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DB98D541F7E5FFFB41182E41560283A /* DateFormatterUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17BDBEC38675DDBBD6DFA65A6132D91 /* DateFormatterUtil.swift */; };
 		824D30752E9E504C836D7BE4AE6F3F8F /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B146329222E0BBFC0B276AC5AB421EDE /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199E4A7348706181487AAC9EA81EAED7 /* ImageExtension.swift */; };
-		B5636D9478C4BBF77E16775233B718CF /* DDWeakTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63760599E165DD791E6DE90142BC3626 /* DDWeakTimer.swift */; };
-		B81D3996BADAEC93937E571B90BA0E38 /* TimerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A5C8A0DA40F19EFB03FAB330A94DF8 /* TimerExtension.swift */; };
+		850FA06B01F5CF14410A96CD8BDA67F4 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9D0F17ABEA29BE74F12AD46B881627 /* DateUtil.swift */; };
+		B2810B2C4ECF01AF3C0AB4C5232A58F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D5CE988350E8238CB4760EE9BE86EC18 /* DDUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D61EDCF4CA1D0DC70801D80A940DF3C6 /* DDUtil-dummy.m */; };
 		F99580680ADCCCD7788A9A68DC6EFBB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,33 +29,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B72FF2C2412BF0CB6BB2D108FCC805C /* DDUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDUtil-prefix.pch"; sourceTree = "<group>"; };
-		199E4A7348706181487AAC9EA81EAED7 /* ImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageExtension.swift; path = Sources/Util/ImageExtension.swift; sourceTree = "<group>"; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		2C67B7FF79CEF9154A217E2AE52947AE /* DDUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDUtil-umbrella.h"; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34FA0F08236CE2D3F1A8667525BFC93E /* DDToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDToastView.swift; path = Sources/Util/DDToastView.swift; sourceTree = "<group>"; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		63760599E165DD791E6DE90142BC3626 /* DDWeakTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDWeakTimer.swift; path = Sources/Util/DDWeakTimer.swift; sourceTree = "<group>"; };
+		5D9D0F17ABEA29BE74F12AD46B881627 /* DateUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateUtil.swift; path = Sources/Util/DateUtil.swift; sourceTree = "<group>"; };
 		63F91B6C26C64DDDE91869920C97EC2C /* DDUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DDUtil.framework; path = DDUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F6179290794ABE517318FC78052BD4E /* DDUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDUtil-dummy.m"; sourceTree = "<group>"; };
+		69EF3B2D1018E54B2869AEDBF1EF82BC /* DDUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDUtil.debug.xcconfig; sourceTree = "<group>"; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		8B4CB741732BF81663A6DAD8D11AEC22 /* DateFormatterUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterUtil.swift; path = Sources/Util/DateFormatterUtil.swift; sourceTree = "<group>"; };
-		8CD666961E1497C73356DF62E967D32D /* DDUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDUtil.release.xcconfig; sourceTree = "<group>"; };
-		954116AF43B5BCF566DEDC418A1D2D25 /* DDUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDUtil-Info.plist"; sourceTree = "<group>"; };
-		9A60A8EC427BB895C83A497D9041DF81 /* DateUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateUtil.swift; path = Sources/Util/DateUtil.swift; sourceTree = "<group>"; };
+		7F95786E5DE923ED7C2CFEC88C3B62C4 /* DDUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDUtil.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AC45696B8F14542A328D695049215FE7 /* DDToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DDToastView.swift; path = Sources/Util/DDToastView.swift; sourceTree = "<group>"; };
-		AE289EC0F3CF55AB0A4EFE17B55AE6BA /* DDUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDUtil-umbrella.h"; sourceTree = "<group>"; };
+		A094B93040F0AD04AF36FD512862652A /* DDUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDUtil.release.xcconfig; sourceTree = "<group>"; };
+		AA926F64583795966A3F9B33B384011D /* DDUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDUtil-Info.plist"; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C04E556695284A7C2DC532EBBC068A78 /* DDUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDUtil.modulemap; sourceTree = "<group>"; };
-		C3A5C8A0DA40F19EFB03FAB330A94DF8 /* TimerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimerExtension.swift; path = Sources/Util/TimerExtension.swift; sourceTree = "<group>"; };
-		CFE4F4869541FAE0043BB238CC9C26EC /* DDUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDUtil.debug.xcconfig; sourceTree = "<group>"; };
+		D61EDCF4CA1D0DC70801D80A940DF3C6 /* DDUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDUtil-dummy.m"; sourceTree = "<group>"; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		DD4627B5EC8FCB60A8F5A743E82DC19F /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Sources/Util/UIColorExtension.swift; sourceTree = "<group>"; };
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F17BDBEC38675DDBBD6DFA65A6132D91 /* DateFormatterUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterUtil.swift; path = Sources/Util/DateFormatterUtil.swift; sourceTree = "<group>"; };
+		FE32E08ED7FC94BA16291876C83872B2 /* DDUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDUtil-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,17 +63,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7ECBD61954E57E695570D405FED5824B /* Frameworks */ = {
+		7624CC90CF0CD796D64AEBCE3A40D233 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4118C9CD73CF88536794B7690990C748 /* Foundation.framework in Frameworks */,
+				B2810B2C4ECF01AF3C0AB4C5232A58F3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0299B0C03D4F631383C55802D16E5CE4 /* DDUtil */ = {
+			isa = PBXGroup;
+			children = (
+				F17BDBEC38675DDBBD6DFA65A6132D91 /* DateFormatterUtil.swift */,
+				5D9D0F17ABEA29BE74F12AD46B881627 /* DateUtil.swift */,
+				34FA0F08236CE2D3F1A8667525BFC93E /* DDToastView.swift */,
+				0FFD54161264BA7B237E8ECEA8B4B396 /* Support Files */,
+			);
+			name = DDUtil;
+			path = DDUtil;
+			sourceTree = "<group>";
+		};
+		0FFD54161264BA7B237E8ECEA8B4B396 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F95786E5DE923ED7C2CFEC88C3B62C4 /* DDUtil.modulemap */,
+				D61EDCF4CA1D0DC70801D80A940DF3C6 /* DDUtil-dummy.m */,
+				AA926F64583795966A3F9B33B384011D /* DDUtil-Info.plist */,
+				FE32E08ED7FC94BA16291876C83872B2 /* DDUtil-prefix.pch */,
+				2C67B7FF79CEF9154A217E2AE52947AE /* DDUtil-umbrella.h */,
+				69EF3B2D1018E54B2869AEDBF1EF82BC /* DDUtil.debug.xcconfig */,
+				A094B93040F0AD04AF36FD512862652A /* DDUtil.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DDUtil";
+			sourceTree = "<group>";
+		};
 		5A5F280BC4D80E5A80179148DC581661 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,14 +108,6 @@
 				1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		78C57BC1F24CDE12150C9B65841A9CE5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F5FEEA43BF09C04E34C452EBBA505EC8 /* DDUtil */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
@@ -114,21 +125,6 @@
 			);
 			name = "Pods-Example";
 			path = "Target Support Files/Pods-Example";
-			sourceTree = "<group>";
-		};
-		AFB5A71253E259D9E0978865E8778F67 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C04E556695284A7C2DC532EBBC068A78 /* DDUtil.modulemap */,
-				6F6179290794ABE517318FC78052BD4E /* DDUtil-dummy.m */,
-				954116AF43B5BCF566DEDC418A1D2D25 /* DDUtil-Info.plist */,
-				0B72FF2C2412BF0CB6BB2D108FCC805C /* DDUtil-prefix.pch */,
-				AE289EC0F3CF55AB0A4EFE17B55AE6BA /* DDUtil-umbrella.h */,
-				CFE4F4869541FAE0043BB238CC9C26EC /* DDUtil.debug.xcconfig */,
-				8CD666961E1497C73356DF62E967D32D /* DDUtil.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DDUtil";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -152,7 +148,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				78C57BC1F24CDE12150C9B65841A9CE5 /* Pods */,
+				EE93AC5957270510FE4CB65E32FC6B07 /* Pods */,
 				5A5F280BC4D80E5A80179148DC581661 /* Products */,
 				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
 			);
@@ -166,20 +162,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F5FEEA43BF09C04E34C452EBBA505EC8 /* DDUtil */ = {
+		EE93AC5957270510FE4CB65E32FC6B07 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8B4CB741732BF81663A6DAD8D11AEC22 /* DateFormatterUtil.swift */,
-				9A60A8EC427BB895C83A497D9041DF81 /* DateUtil.swift */,
-				AC45696B8F14542A328D695049215FE7 /* DDToastView.swift */,
-				63760599E165DD791E6DE90142BC3626 /* DDWeakTimer.swift */,
-				199E4A7348706181487AAC9EA81EAED7 /* ImageExtension.swift */,
-				C3A5C8A0DA40F19EFB03FAB330A94DF8 /* TimerExtension.swift */,
-				DD4627B5EC8FCB60A8F5A743E82DC19F /* UIColorExtension.swift */,
-				AFB5A71253E259D9E0978865E8778F67 /* Support Files */,
+				0299B0C03D4F631383C55802D16E5CE4 /* DDUtil */,
 			);
-			name = DDUtil;
-			path = DDUtil;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,11 +181,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF33352ABC5AE6A53429E1E3886B0DA2 /* Headers */ = {
+		C75AFFC375C68A19DF7B51CDFD94A504 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7584964FA8DE3D95653DF13F777978C1 /* DDUtil-umbrella.h in Headers */,
+				6521F65F20A4F4C8C9B2AC94B6059340 /* DDUtil-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,12 +213,12 @@
 		};
 		9E9B6770FD39B57BB2AC40AEC78EC81A /* DDUtil */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73CE280541F45706EDEC23436339B841 /* Build configuration list for PBXNativeTarget "DDUtil" */;
+			buildConfigurationList = 77CAC7B47BA568755AC47BC8E0A3BA70 /* Build configuration list for PBXNativeTarget "DDUtil" */;
 			buildPhases = (
-				FF33352ABC5AE6A53429E1E3886B0DA2 /* Headers */,
-				C9122E8B9CED6CAE62F35DCD76C95BCD /* Sources */,
-				7ECBD61954E57E695570D405FED5824B /* Frameworks */,
-				19F240A3F019D040DDE8432257902CAA /* Resources */,
+				C75AFFC375C68A19DF7B51CDFD94A504 /* Headers */,
+				42218D0741AF8D5D8BE651419AC49F63 /* Sources */,
+				7624CC90CF0CD796D64AEBCE3A40D233 /* Frameworks */,
+				0B9739543461120B4EDE9D69008EA43C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -270,7 +258,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		19F240A3F019D040DDE8432257902CAA /* Resources */ = {
+		0B9739543461120B4EDE9D69008EA43C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -287,26 +275,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		42218D0741AF8D5D8BE651419AC49F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB98D541F7E5FFFB41182E41560283A /* DateFormatterUtil.swift in Sources */,
+				850FA06B01F5CF14410A96CD8BDA67F4 /* DateUtil.swift in Sources */,
+				2D0105BE1E60F9531C172AF7DB9CB08A /* DDToastView.swift in Sources */,
+				D5CE988350E8238CB4760EE9BE86EC18 /* DDUtil-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4CE197F7C218B0D9986748415FAF8605 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3146DAD2DC93D350509400BB57E92654 /* Pods-Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9122E8B9CED6CAE62F35DCD76C95BCD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				70EC1711D478704E41D622CD006E6E4B /* DateFormatterUtil.swift in Sources */,
-				6684363C6DD91779A0817AEB86B9A896 /* DateUtil.swift in Sources */,
-				3F712A4FCDE15A574F8324534F6E1526 /* DDToastView.swift in Sources */,
-				4FC90030F45EF3D6918EA3D1C511BDB8 /* DDUtil-dummy.m in Sources */,
-				B5636D9478C4BBF77E16775233B718CF /* DDWeakTimer.swift in Sources */,
-				B146329222E0BBFC0B276AC5AB421EDE /* ImageExtension.swift in Sources */,
-				B81D3996BADAEC93937E571B90BA0E38 /* TimerExtension.swift in Sources */,
-				45E49F65C67A249C203AA1171E5AD566 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,9 +345,9 @@
 			};
 			name = Release;
 		};
-		4BAB20055A04A1CD148297B4A3B92297 /* Release */ = {
+		192EABC976D895F8DCD11BDE879E2301 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8CD666961E1497C73356DF62E967D32D /* DDUtil.release.xcconfig */;
+			baseConfigurationReference = A094B93040F0AD04AF36FD512862652A /* DDUtil.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -522,6 +506,42 @@
 			};
 			name = Release;
 		};
+		A57AD1A7A6275760C8C47E2463AC6A19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69EF3B2D1018E54B2869AEDBF1EF82BC /* DDUtil.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DDUtil/DDUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DDUtil/DDUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DDUtil/DDUtil.modulemap";
+				PRODUCT_MODULE_NAME = DDUtil;
+				PRODUCT_NAME = DDUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B501AD57B5DDE3C6808CD5A2DE2FCC3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */;
@@ -560,42 +580,6 @@
 			};
 			name = Debug;
 		};
-		FDADA393FCC627E2B604DEDCA67AE55D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CFE4F4869541FAE0043BB238CC9C26EC /* DDUtil.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DDUtil/DDUtil-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DDUtil/DDUtil-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DDUtil/DDUtil.modulemap";
-				PRODUCT_MODULE_NAME = DDUtil;
-				PRODUCT_NAME = DDUtil;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -617,11 +601,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		73CE280541F45706EDEC23436339B841 /* Build configuration list for PBXNativeTarget "DDUtil" */ = {
+		77CAC7B47BA568755AC47BC8E0A3BA70 /* Build configuration list for PBXNativeTarget "DDUtil" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FDADA393FCC627E2B604DEDCA67AE55D /* Debug */,
-				4BAB20055A04A1CD148297B4A3B92297 /* Release */,
+				A57AD1A7A6275760C8C47E2463AC6A19 /* Debug */,
+				192EABC976D895F8DCD11BDE879E2301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

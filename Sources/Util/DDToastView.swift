@@ -32,7 +32,7 @@ public class DDToastView: UIView {
     
     /// 显示
     @discardableResult
-    public static func show(_ message: String, inView view: UIView? = nil, position: Position = .center) -> DDToastView? {
+    public static func show(_ message: String, inView view: UIView, position: Position = .center) -> DDToastView? {
         let toast = DDToastView()
         switch position {
         case .center:
@@ -44,10 +44,7 @@ public class DDToastView: UIView {
         case .custom(let offset):
             toast.contentCenterY = offset
         }
-        guard let inView = view ?? UIApplication.shared.keyWindow else {
-            return nil
-        }
-        toast.show(withMessage: message, inView: inView)
+        toast.show(withMessage: message, inView: view)
         return toast
     }
     
@@ -239,7 +236,7 @@ public class DDToastView: UIView {
 extension String {
     ///  toast自身
     @discardableResult
-    public func toast(inView view: UIView? = nil, position: DDToastView.Position = .center) -> DDToastView? {
+    public func toast(inView view: UIView, position: DDToastView.Position = .center) -> DDToastView? {
         return DDToastView.show(self, inView: view, position: position)
     }
 }

@@ -15,7 +15,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // ToastView Sampllse
-//        DDToastView.show("bring your ideas to life", inView: self.view)
+        DDToastView.show("bring your ideas to life",inView: self.view)
+        DDToastView.show("bring your ideas to life",inView: self.view)
+        DDToastView.show("bring your ideas to life",inView: self.view)
+        DDToastView.show("bring your ideas to life",inView: self.view)
+//        "adfafafasdfadsfa".toast(inView: self.view, position: .center)
     }
 }
 
