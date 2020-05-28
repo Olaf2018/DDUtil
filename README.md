@@ -23,3 +23,21 @@ Toast小窗工具DDToastView，弹窗位置支持视图的上、中、下、自�
 ```
 DDToastView.show("bring your ideas to life.",inView: self.view)
 ```
+
+#### DDLoadingView-LodingView工具
+DDLoadingView，是一个轻量级的loading等待动画的视图工具，可设置手势消失，可手动控制消失，使用在视图等待、数据等待等场景下，可参考调用示例：
+```
+DDToastView.show("bring your ideas to life.",inView: self.view)
+```
+```
+// loading展示，默认无手势
+DDLoadingView.show(inView: self.view)
+```
+```
+// loading展示，设置手势隐藏
+DDLoadingView.show(inView: self.view, tappable: true)
+```
+```
+// loading隐藏
+DDLoadingView.hide()
+```
